@@ -19,6 +19,7 @@ const categories: SkillCategory[] = [
     description:
       "Core full-stack and mobile client-server implementation stack.",
     skills: [
+      { name: "Next.js", level: "Advanced" },
       { name: "React.js", level: "Advanced" },
       { name: "React Native (Expo)", level: "Advanced" },
       { name: "Flutter / Dart", level: "Proficient" },
@@ -82,7 +83,6 @@ export default function Skills() {
           </p>
         </div>
 
-        {/* Tab Filters */}
         <div className="flex flex-wrap items-center justify-center gap-2">
           {categories.map((cat) => {
             const Icon = cat.icon;
@@ -104,7 +104,6 @@ export default function Skills() {
           })}
         </div>
 
-        {/* Category Description & Skill Cards */}
         <div className="p-7 sm:p-9 rounded-3xl border border-zinc-200/80 dark:border-zinc-800 bg-white/70 dark:bg-zinc-900/60 backdrop-blur-md space-y-6">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-zinc-200/60 dark:border-zinc-800/60 pb-4">
             <div>
