@@ -246,11 +246,11 @@ export default function Contact() {
             </div>
 
             <a
-              href="/SUELLO_CV_UPDATEDD.docx"
-              download="SUELLO_MHYCO_CV.docx"
+              href="/SUELLO_CV_FINAL.pdf"
+              download="SUELLO_CV_FINAL.pdf"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-800 text-zinc-900 dark:text-zinc-100 text-xs font-semibold hover:bg-zinc-50 dark:hover:bg-zinc-700 transition"
             >
-              Download CV (.docx)
+              Download CV (.PDF)
               <FileDown className="w-4 h-4" />
             </a>
           </div>
