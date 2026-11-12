@@ -246,8 +246,8 @@ export default function Contact() {
             </div>
 
             <a
-              href="/SUELLO_RESUME.pdf"
-              download="SUELLO_RESUME.pdf"
+              href="/SUELLO_RESUME_FINAL.pdf"
+              download="SUELLO_RESUME_FINAL.pdf"
               className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-full border border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-800 text-zinc-900 dark:text-zinc-100 text-xs font-semibold hover:bg-zinc-50 dark:hover:bg-zinc-700 transition"
             >
               Download Resume (.PDF)
